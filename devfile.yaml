@@ -23,7 +23,7 @@ components:
     memoryLimit: 4927M
     type: dockerimage
     alias: zosconnect
-    image: ‘icr.io/zosconnect/ibm-zcon-designer:3.0.69’
+    image: ‘icr.io/zosconnect/ibm-zcon-designer:3.0.73’
     env:
       - value: /projects/employees-api/start
         name: ZCON_DESIGNER_PROJECT
